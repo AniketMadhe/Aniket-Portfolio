@@ -2,7 +2,7 @@ import React from "react";
 
 function Welcome() {
   return (
-    <div className="w-full h-[90%] bg-black flex justify-center items-center gap-40">
+    <div className="w-full h-[90%] bg-[#002147] flex justify-center items-center gap-40 text-[#d2b48c]">
       <div className="about w-[40%] h-[75%] flex justify-center items-center">
         <p>
           "Passinate MERN stack developer and love building complete web apps. I
