@@ -36,6 +36,22 @@ function Design() {
           See live
         </a>
       </div>
+      <div className="pro1 w-64 h-48  flex flex-col items-center shadow-[3px_3px_3px_rgba(0,0,0,0.9)]">
+        <img
+          className="w-full h-full object-cover"
+          src="/images/Screenshot 2026-02-02 215021.png"
+          alt=""
+        />
+
+        <a
+          target="_blank"
+          className=" cursor-pointer flex justify-center items-center gap-4"
+          href="https://coruscating-lebkuchen-5db0f5.netlify.app/"
+        >
+          <FiExternalLink />
+          See live
+        </a>
+      </div>
     </div>
   );
 }
