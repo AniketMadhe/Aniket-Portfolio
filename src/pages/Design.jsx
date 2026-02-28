@@ -3,8 +3,9 @@ import { FiLink, FiExternalLink } from "react-icons/fi";
 
 function Design() {
   return (
-    <div className="w-full h-[90%] bg-[#002147] p-32 flex justify-around flex-wrap">
+    <div className="w-full h-[90%] bg-[#002147]  p-32 flex justify-around flex-wrap">
       <div className="pro1 w-64 h-48  flex flex-col items-center shadow-[3px_3px_3px_rgba(0,0,0,0.9)]">
+        <h2>Sign-up page</h2>
         <img
           className="w-full h-full object-cover"
           src="/images/Signup-Login-page.png"
@@ -21,6 +22,7 @@ function Design() {
         </a>
       </div>
       <div className="pro1 w-64 h-48  flex flex-col items-center shadow-[3px_3px_3px_rgba(0,0,0,0.9)]">
+        <h2>Glass card hover effect</h2>
         <img
           className="w-full h-full object-cover"
           src="/images/Glass-card-hover-effect.png"
@@ -37,6 +39,7 @@ function Design() {
         </a>
       </div>
       <div className="pro1 w-64 h-48  flex flex-col items-center shadow-[3px_3px_3px_rgba(0,0,0,0.9)]">
+        <h2>Expanding slider items </h2>
         <img
           className="w-full h-full object-cover"
           src="/images/Screenshot 2026-02-02 215021.png"
@@ -53,6 +56,7 @@ function Design() {
         </a>
       </div>
       <div className="pro1 w-64 h-48  flex flex-col items-center shadow-[3px_3px_3px_rgba(0,0,0,0.9)]">
+        <h2>Neumorphism Login page</h2>
         <img
           className="w-full h-full object-cover"
           src="images/Neuomorphism login page.png"

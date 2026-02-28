@@ -4,7 +4,7 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 function Footer() {
   return (
     <div
-      id="sfooter"
+      id="footer"
       className="w-full h-1/4 bg-[#d2b48c] text-[#002147] flex justify-start items-center font-semibold"
     >
       <div className="contact w-1/3 h-[70%]  flex flex-col justify-center items-center ">
