@@ -3,8 +3,8 @@ import { FiLink, FiExternalLink } from "react-icons/fi";
 
 function Design() {
   return (
-    <div className="w-full h-[90%] bg-[#002147]  p-24 flex justify-around flex-wrap">
-      <div className="pro1 w-64 h-48  flex flex-col items-center mt-4 shadow-[3px_3px_3px_rgba(0,0,0,0.9)]">
+    <div className="w-full h-[90%] bg-[#002147]  p-24 flex justify-center gap-x-8 gap-y-4 items-center flex-wrap">
+      <div className="pro1 w-64 h-48  flex flex-col items-center  mt-4 shadow-[3px_3px_3px_rgba(0,0,0,0.9)]">
         <h2>Sign-up page</h2>
         <img
           className="w-full h-full object-cover"
@@ -84,6 +84,23 @@ function Design() {
           target="_blank"
           className=" cursor-pointer flex justify-center items-center gap-4"
           href="https://tiny-pie-eede53.netlify.app/"
+        >
+          <FiExternalLink />
+          See live
+        </a>
+      </div>
+      <div className="pro1 w-64 h-48  flex flex-col items-center shadow-[3px_3px_3px_rgba(0,0,0,0.9)]">
+        <h2>SVG Text-Reveal Animation</h2>
+        <img
+          className="w-full h-full object-cover"
+          src="images/svg-text.png"
+          alt=""
+        />
+
+        <a
+          target="_blank"
+          className=" cursor-pointer flex justify-center items-center gap-4"
+          href="https://cheerful-daffodil-b01ab3.netlify.app/"
         >
           <FiExternalLink />
           See live
